@@ -1,0 +1,17 @@
+.header {
+    height: 100vh;
+}
+
+.header1 {
+    margin-right: 2rem;
+    height: 85vh;
+    margin-top: 3rem;
+    margin-left: 8rem;
+}
+
+@media screen and (max-width: 400px) {
+    .header1 {
+        height: 39vh;
+        margin-left: 5rem;
+    }
+}

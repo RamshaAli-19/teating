@@ -1,0 +1,77 @@
+        .house1 {
+            background-image: url("../public/Rectangle5.png");
+            background-size: cover;
+            background-position: center;
+            width: 100vw;
+            overflow-y: hidden;
+        }
+        
+        .HELLO {
+            color: aliceblue;
+            height: 78px;
+            width: 305px;
+            margin-left: 31rem;
+            font-size: 3rem;
+            margin-top: 1rem;
+        }
+        
+        .shop {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            margin-top: 14rem;
+        }
+        
+        .vector4 {
+            color: aliceblue;
+        }
+        
+        .vector7 {
+            color: aliceblue;
+            margin-left: 1rem;
+        }
+        
+        .vector9 {
+            margin-left: 1rem;
+        }
+        
+        .vector5 {
+            color: whitesmoke;
+        }
+        
+        .vector10 {
+            color: whitesmoke;
+        }
+        
+        .vector10:hover {
+            color: black;
+        }
+        
+        .vector5:hover {
+            color: black;
+        }
+        
+        @media screen and (max-width: 400px) {
+            .house1 {
+                width: 32rem;
+                height: 94vh;
+                overflow: hidden;
+            }
+            .HELLO {
+                margin-top: -9rem;
+                margin-left: 7rem;
+            }
+            .vector4 {
+                margin-bottom: 9rem;
+                margin-left: 8rem;
+            }
+            .vector9 {
+                margin-bottom: 9rem;
+                margin-left: 1rem;
+            }
+            .vector7 {
+                margin-bottom: 9rem;
+                margin-left: 1rem;
+            }
+        }

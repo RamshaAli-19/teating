@@ -1,0 +1,160 @@
+.containers {
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.7)url("../public/house.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0;
+    right: 0;
+    background-blend-mode: darken;
+}
+
+.containers2 {
+    max-width: 800px;
+    text-align: center;
+}
+
+.containers5 {
+    font-size: 45px;
+    font-weight: 500;
+    color: whitesmoke;
+    margin-top: -3rem;
+}
+
+.containers6 {
+    font-weight: 600;
+    color: whitesmoke;
+    margin-top: 1rem;
+    font-size: 3rem;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26px;
+    width: 60%;
+}
+
+.containers3 {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    position: relative;
+    padding: 35px 0;
+    display: flex;
+}
+
+.icons {
+    min-width: 60px;
+    height: 60px;
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22PX;
+}
+
+.text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: whitesmoke;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.text2 {
+    font-weight: 500;
+    color: whitesmoke;
+}
+
+.text3 {
+    color: whitesmoke;
+}
+
+.form2 {
+    font-size: 40px;
+    color: whitesmoke;
+    font-weight: 500;
+    margin: 2rem;
+}
+
+.input {
+    position: relative;
+    width: 310px;
+    margin-top: 24px;
+    border-bottom: 2px solid whitesmoke;
+}
+
+.input3 {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    color: whitesmoke;
+    background: transparent;
+}
+
+.input4 {
+    position: absolute;
+    top: -30px;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: whitesmoke;
+}
+
+.forms2 {
+    margin-top: -1rem;
+}
+
+.input10 {
+    margin-top: 3rem;
+    resize: none;
+    height: 150px;
+    width: 304px;
+    background: transparent;
+    color: whitesmoke;
+}
+
+.input1 {
+    position: relative;
+    width: 310px;
+    margin-top: 24px;
+}
+
+.input7 {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: whitesmoke;
+}
+
+.input00 {
+    margin-top: 2rem;
+    width: 7rem;
+}
+
+.forms {
+    margin-left: 13rem;
+}
