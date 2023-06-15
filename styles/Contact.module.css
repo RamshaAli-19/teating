@@ -1,13 +1,13 @@
 .containers {
     min-height: 100vh;
     padding: 50px 100px;
+    background: rgba(0, 0, 0, 0.7)url("../public/house.jpg");
+    background-size: cover;
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: rgba(0, 0, 0, 0.7)url("../public/house.jpg");
-    background-size: cover;
-    position: absolute;
     top: 0;
     left: 0;
     border: 0;
@@ -157,4 +157,27 @@
 
 .forms {
     margin-left: 13rem;
+}
+
+@media screen and (max-width: 400px) {
+    .containers {
+        width: 100vw;
+    }
+    .containers5 {
+        font-size: 63px;
+        font-weight: 500;
+        margin-top: -2rem;
+    }
+    .containers6 {
+        font-size: 3rem;
+    }
+    .container3 {
+        width: 14%;
+    }
+    .text2 {
+        width: 32vw;
+    }
+    .input3 {
+        width: 5%;
+    }
 }

@@ -55,23 +55,104 @@
         @media screen and (max-width: 400px) {
             .house1 {
                 width: 32rem;
-                height: 94vh;
                 overflow: hidden;
             }
             .HELLO {
-                margin-top: -9rem;
-                margin-left: 7rem;
+                margin-left: 6rem;
             }
-            .vector4 {
-                margin-bottom: 9rem;
-                margin-left: 8rem;
+            .shop {
+                display: flex;
+                justify-content: center;
+                margin-left: 2rem;
             }
-            .vector9 {
-                margin-bottom: 9rem;
-                margin-left: 1rem;
+        }
+        
+        @media screen and (min-width: 400px) and (max-width: 500px) {
+            .house1 {
+                width: 40rem;
+                overflow: hidden;
             }
-            .vector7 {
-                margin-bottom: 9rem;
-                margin-left: 1rem;
+            .HELLO {
+                margin-left: 14.5rem;
+            }
+            .shop {
+                display: flex;
+                justify-content: center;
+                margin-left: 7.5rem;
+            }
+        }
+        
+        @media screen and (max-width: 600px) and (min-width: 500px) {
+            .house1 {
+                width: 60rem;
+                overflow: hidden;
+            }
+            .HELLO {
+                margin-left: 22.5rem;
+            }
+            .shop {
+                display: flex;
+                justify-content: center;
+                margin-left: 13.5rem;
+            }
+        }
+        
+        @media screen and (max-width: 660px) and (min-width: 600px) {
+            .house1 {
+                width: 64rem;
+                overflow: hidden;
+            }
+            .HELLO {
+                margin-left: 24.5rem;
+            }
+            .shop {
+                display: flex;
+                justify-content: center;
+                margin-left: 13.5rem;
+            }
+        }
+        
+        @media screen and (min-width: 660px) and (max-width: 800px) {
+            .house1 {
+                width: 64rem;
+                overflow: hidden;
+            }
+            .HELLO {
+                margin-left: 24.5rem;
+            }
+            .shop {
+                display: flex;
+                justify-content: center;
+                margin-left: 9.5rem;
+            }
+        }
+        
+        @media screen and (min-width:800px) and (max-width:870px) {
+            .house1 {
+                width: 64rem;
+                overflow: hidden;
+            }
+            .HELLO {
+                margin-left: 24.5rem;
+            }
+            .shop {
+                display: flex;
+                justify-content: center;
+                margin-left: 6.5rem;
+            }
+        }
+        
+        @media screen and (min-width: 870px) and (max-width: 1000px) {
+            .house1 {
+                width: 73rem;
+                overflow: hidden;
+            }
+            .HELLO {
+                margin-left: 25.5rem;
+            }
+            .shop {
+                display: flex;
+                justify-content: center;
+                margin-left: 4.5rem;
             }
         }

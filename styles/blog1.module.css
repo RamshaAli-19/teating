@@ -1,0 +1,17 @@
+.Blog {
+    background: url("../public/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    overflow: hidden;
+    height: 61vh;
+}
+
+.blogimage {
+    color: white;
+    height: 78px;
+    width: 305px;
+    margin-left: 31rem;
+    font-size: 3rem;
+    margin-top: 1rem;
+}

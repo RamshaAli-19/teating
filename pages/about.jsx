@@ -13,6 +13,7 @@ function About() {
       <>
       
       <div className={Styles.house1}>
+      
 
 <div className={Styles.shop}>
 
@@ -32,13 +33,15 @@ Home
 <h1 className={Styles.HELLO}>
 ABOUT US
  </h1>
-</div>
 
+</div>
 
 <Counter/>
 <Video/>
 <Villa7/>
 <Villa6/>
+
+
 
      </>
   );

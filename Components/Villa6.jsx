@@ -40,15 +40,15 @@ transition={{
  
     
    >
-        <img src="/Rectangle70.png" alt="base" className={design.society3}  />
-        <div className={design.society1} >
-        <img src="/Rectangle71.png" alt="base" className={design.society1} />
-        </div>
-        <div className={design.society2}>
-        <img src="/Rectangle72.png" alt="base" className={design.society6} />
-        </div>
-        <div className={design.society3} >
-        <img src="/Rectangle73.png" alt="base" className={design.society7} />
+      <div className={design.society2} >
+        <img src="/Rectangle70.png" alt="base" className={design.society1}  />
+    
+        <img src="/Rectangle71.png" alt="base" className={design.society3} />
+      
+        
+        <img src="/Rectangle72.png" alt="base" className={design.society4} />
+      
+        <img src="/Rectangle73.png" alt="base" className={design.society5} />
         </div>
    </motion.div>
 </>
