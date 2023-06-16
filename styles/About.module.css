@@ -2,15 +2,18 @@
             background-image: url("../public/Rectangle5.png");
             background-size: cover;
             background-position: center;
-            width: 100vw;
-            overflow-y: hidden;
+            height: 57vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
         }
         
         .HELLO {
             color: aliceblue;
             height: 78px;
-            width: 305px;
-            margin-left: 31rem;
+            display: flex;
+            align-items: center;
             font-size: 3rem;
             margin-top: 1rem;
         }
@@ -19,33 +22,22 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 100vw;
-            margin-top: 14rem;
         }
         
         .vector4 {
             color: aliceblue;
+            display: inline-block;
         }
         
         .vector7 {
             color: aliceblue;
             margin-left: 1rem;
+            display: inline-block;
         }
         
         .vector9 {
             margin-left: 1rem;
-        }
-        
-        .vector5 {
-            color: whitesmoke;
-        }
-        
-        .vector10 {
-            color: whitesmoke;
-        }
-        
-        .vector10:hover {
-            color: black;
+            display: inline-block;
         }
         
         .vector5:hover {
@@ -54,16 +46,8 @@
         
         @media screen and (max-width: 400px) {
             .house1 {
-                width: 32rem;
+                width: 34rem;
                 overflow: hidden;
-            }
-            .HELLO {
-                margin-left: 6rem;
-            }
-            .shop {
-                display: flex;
-                justify-content: center;
-                margin-left: 2rem;
             }
         }
         
@@ -72,28 +56,12 @@
                 width: 40rem;
                 overflow: hidden;
             }
-            .HELLO {
-                margin-left: 14.5rem;
-            }
-            .shop {
-                display: flex;
-                justify-content: center;
-                margin-left: 7.5rem;
-            }
         }
         
         @media screen and (max-width: 600px) and (min-width: 500px) {
             .house1 {
                 width: 60rem;
                 overflow: hidden;
-            }
-            .HELLO {
-                margin-left: 22.5rem;
-            }
-            .shop {
-                display: flex;
-                justify-content: center;
-                margin-left: 13.5rem;
             }
         }
         
@@ -102,28 +70,12 @@
                 width: 64rem;
                 overflow: hidden;
             }
-            .HELLO {
-                margin-left: 24.5rem;
-            }
-            .shop {
-                display: flex;
-                justify-content: center;
-                margin-left: 13.5rem;
-            }
         }
         
         @media screen and (min-width: 660px) and (max-width: 800px) {
             .house1 {
                 width: 64rem;
                 overflow: hidden;
-            }
-            .HELLO {
-                margin-left: 24.5rem;
-            }
-            .shop {
-                display: flex;
-                justify-content: center;
-                margin-left: 9.5rem;
             }
         }
         
@@ -132,27 +84,11 @@
                 width: 64rem;
                 overflow: hidden;
             }
-            .HELLO {
-                margin-left: 24.5rem;
-            }
-            .shop {
-                display: flex;
-                justify-content: center;
-                margin-left: 6.5rem;
-            }
         }
         
         @media screen and (min-width: 870px) and (max-width: 1000px) {
             .house1 {
                 width: 73rem;
                 overflow: hidden;
-            }
-            .HELLO {
-                margin-left: 25.5rem;
-            }
-            .shop {
-                display: flex;
-                justify-content: center;
-                margin-left: 4.5rem;
             }
         }

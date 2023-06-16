@@ -28,11 +28,12 @@ Home
   </h2></a>
 
 
-
 </div>
+
 <h1 className={Styles.HELLO}>
 ABOUT US
  </h1>
+
 
 </div>
 
