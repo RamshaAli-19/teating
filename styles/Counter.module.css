@@ -169,6 +169,8 @@
         display: flex;
         flex-direction: column;
         margin-left: -1rem;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
     }
     .aboutSection {
         display: flex;
@@ -206,6 +208,8 @@
         display: flex;
         flex-direction: column;
         margin-left: -1rem;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
     }
     .aboutSection {
         display: flex;
@@ -243,6 +247,8 @@
         display: flex;
         flex-direction: column;
         margin-left: -1rem;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
     }
     .aboutSection {
         display: flex;
@@ -280,6 +286,8 @@
         display: flex;
         flex-direction: column;
         margin-left: -1rem;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
     }
     .aboutSection {
         display: flex;
@@ -317,6 +325,8 @@
         display: flex;
         flex-direction: column;
         margin-left: -1rem;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
     }
     .aboutSection {
         display: flex;
@@ -329,6 +339,84 @@
     .aboutText {
         font-size: 2.5rem;
         width: 70rem;
+        text-align: center;
+        margin-top: 1rem;
+        font-weight: bolder;
+    }
+    .mobAboutHead {
+        display: flex;
+        justify-content: center;
+    }
+    .aboutHead {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1000px) and (max-width:1100px) {
+    .image {
+        display: none;
+    }
+    .container {
+        margin-left: -4rem;
+    }
+    .counterContainer {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        margin-left: -1rem;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .aboutSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text {
+        font-size: 4.3rem;
+    }
+    .aboutText {
+        font-size: 2.5rem;
+        width: 70rem;
+        text-align: center;
+        margin-top: 1rem;
+        font-weight: bolder;
+    }
+    .mobAboutHead {
+        display: flex;
+        justify-content: center;
+    }
+    .aboutHead {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1100px) and (max-width:1200px) {
+    .image {
+        display: none;
+    }
+    .container {
+        margin-left: -4rem;
+    }
+    .counterContainer {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        margin-left: -1rem;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .aboutSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text {
+        font-size: 6.3rem;
+    }
+    .aboutText {
+        font-size: 2.5rem;
+        width: 78rem;
         text-align: center;
         margin-top: 1rem;
         font-weight: bolder;

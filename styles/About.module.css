@@ -2,7 +2,7 @@
             background-image: url("../public/Rectangle5.png");
             background-size: cover;
             background-position: center;
-            height: 57vh;
+            height: 73vh;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -89,6 +89,20 @@
         @media screen and (min-width: 870px) and (max-width: 1000px) {
             .house1 {
                 width: 73rem;
+                overflow: hidden;
+            }
+        }
+        
+        @media screen and (min-width:1000px) and (max-width:1100px) {
+            .house1 {
+                width: 73rem;
+                overflow: hidden;
+            }
+        }
+        
+        @media screen and (min-width:1100px) and (max-width:1200px) {
+            .house1 {
+                width: 82rem;
                 overflow: hidden;
             }
         }
