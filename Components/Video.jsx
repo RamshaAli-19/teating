@@ -13,11 +13,26 @@ function Villa5(){
 return(
 
 
-  <div className={Styless.header}>
-    
-<video className={Styless.header1}    controls >
-  <source  src="/g.mp4" type="video/mp4"   />
-</video>
+  <div className={Styless.videowidth}>
+  <img
+          src="/video-bg.png"
+          alt="About1"
+          className={Styless.imagese12}
+          
+        />
+
+<div className={Styless.play}>
+<img
+          src="/button.png"
+          alt="About1"
+          className={Styless.imagese}
+          
+        />
+
+        <h1 className={Styless.heading}>
+          DREAMVILLA
+        </h1>
+</div>
 
 </div>
 

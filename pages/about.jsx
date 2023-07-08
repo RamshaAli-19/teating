@@ -39,8 +39,8 @@ ABOUT US
 
 <Counter/>
 <Video/>
-<Villa7/>
 <Villa6/>
+<Villa7/>
 
 
 

@@ -1,6 +1,8 @@
 import React from "react";
 import Styles1 from "../styles/blog1.module.css";
-import Search from "../Components2/Search";
+import Search from "../Components2/blogss";
+import Events from "../Components2/Events";
+
 function Blog1() {
     return (
       <>
@@ -9,7 +11,7 @@ function Blog1() {
 <div className={Styles1.blogimage}>
 
 
-<h1 className={Styles1.section}>
+<h1 className={Styles1.section22}>
 Blog
  </h1>
 
@@ -21,6 +23,7 @@ Blog
 </div>
 
 <Search/>
+<Events/>
 
       </>
   );

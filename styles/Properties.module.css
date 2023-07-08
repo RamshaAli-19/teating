@@ -1,4 +1,4 @@
-.Blog {
+.Blog2 {
     background: rgba(0, 0, 0, 0.3) url("../public/hero.jpg");
     background-size: cover;
     background-position: center;
@@ -8,23 +8,14 @@
     background-blend-mode: color-burn;
 }
 
-.blogimage {
+.blogimage2 {
     color: white;
     height: 78px;
     width: 305px;
     font-size: 3rem;
-    margin-top: 1rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
     margin-left: 31rem;
-}
-
-@media screen and (max-width: 400px) {
-    .section22 {
-        display: flex;
-        align-items: center;
-        margin-left: -21rem;
-        margin-top: 7rem;
-    }
-    .Blog {
-        width: 37rem;
-    }
 }

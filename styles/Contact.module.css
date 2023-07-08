@@ -54,6 +54,15 @@
     display: flex;
 }
 
+.text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: whitesmoke;
+    flex-direction: column;
+    font-weight: 300;
+}
+
 .icons {
     min-width: 60px;
     height: 60px;
@@ -63,15 +72,6 @@
     align-items: center;
     border-radius: 50%;
     font-size: 22PX;
-}
-
-.text {
-    display: flex;
-    margin-left: 20px;
-    font-size: 16px;
-    color: whitesmoke;
-    flex-direction: column;
-    font-weight: 300;
 }
 
 .text2 {

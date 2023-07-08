@@ -1,12 +1,13 @@
         .house1 {
-            background-image: url("../public/Rectangle5.png");
+            background: rgba(0, 0, 0, 0.7) url("../public/header-bg.jpg");
             background-size: cover;
             background-position: center;
-            height: 73vh;
+            height: 78vh;
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
+            background-blend-mode: darken;
         }
         
         .HELLO {
@@ -46,63 +47,6 @@
         
         @media screen and (max-width: 400px) {
             .house1 {
-                width: 34rem;
-                overflow: hidden;
-            }
-        }
-        
-        @media screen and (min-width: 400px) and (max-width: 500px) {
-            .house1 {
-                width: 40rem;
-                overflow: hidden;
-            }
-        }
-        
-        @media screen and (max-width: 600px) and (min-width: 500px) {
-            .house1 {
-                width: 60rem;
-                overflow: hidden;
-            }
-        }
-        
-        @media screen and (max-width: 660px) and (min-width: 600px) {
-            .house1 {
-                width: 64rem;
-                overflow: hidden;
-            }
-        }
-        
-        @media screen and (min-width: 660px) and (max-width: 800px) {
-            .house1 {
-                width: 64rem;
-                overflow: hidden;
-            }
-        }
-        
-        @media screen and (min-width:800px) and (max-width:870px) {
-            .house1 {
-                width: 64rem;
-                overflow: hidden;
-            }
-        }
-        
-        @media screen and (min-width: 870px) and (max-width: 1000px) {
-            .house1 {
-                width: 73rem;
-                overflow: hidden;
-            }
-        }
-        
-        @media screen and (min-width:1000px) and (max-width:1100px) {
-            .house1 {
-                width: 73rem;
-                overflow: hidden;
-            }
-        }
-        
-        @media screen and (min-width:1100px) and (max-width:1200px) {
-            .house1 {
-                width: 82rem;
-                overflow: hidden;
+                width: 100vw;
             }
         }

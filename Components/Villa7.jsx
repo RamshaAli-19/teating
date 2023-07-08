@@ -1,115 +1,261 @@
 import React from "react";
 import Design from "../styles/Villa7.module.css";
-import { useState } from "react";
-import { motion } from "framer-motion";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+
+
+import { Pagination ,Autoplay } from "swiper";
+
 
 
 
 
 function Villa7(){
 
+       
+  
+      
+    
+    return(
+        <>
+        
+
+<div className={Design.pic3}>
+<img
+          src="/bed-icon.png"
+          alt="About1"
+          className={Design.imagess}
+          
+        />
+
+     
+</div>
+
+
+<div className={Design.pic2}>
+   <h1 className={Design.pics4}>
+      Our Guest Loves Us
+   </h1>
+   
+ 
+
+</div>
+
+
+<div className={Design.swiper}>
+
+
+
+<Swiper
+        slidesPerView={1}
+        spaceBetween={10}
+        pagination={{
+          clickable: true,
+        }}
+        breakpoints={{
+          "@0.00": {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          "@0.75": {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          "@1.00": {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          "@1.50": {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          }
+      
+        }}
+
+
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        loop={true}
+        navigation={true}
+        modules={[Pagination,Autoplay]}
+        className="mySwiper"
+      >
+
+
+<div className={Design.container02}>
+<SwiperSlide>
+<div className={Design.container03}>
+<div className={Design.container050}>
+<img
+          src="/s.png"
+          alt="About2"
+          className={Design.imagess00}
+          
+        />
+
+<p className={Design.container01} >
+Incident deleniti blanditis quas aperiam recusandae consillo ullam quibusdam cum libero illo 
+repell endus!
+</p>
+</div>
+<div className={Design.container052}>
+<h3 className={Design.container09}>
+  David Alone
+</h3>
+<p className={Design.container000} >
+CEO & Founder
+</p>
+</div>
+</div>
+
+     
+        </SwiperSlide>
+      
+<SwiperSlide>
+<div className={Design.container03}>
+<div className={Design.container050}>
+
+
+<img
+          src="/s.png"
+          alt="About2"
+          className={Design.imagess00}
+          
+        />
+
+<p className={Design.container01} >
+Incident deleniti blanditis quas aperiam recusandae consillo ullam quibusdam cum libero illo 
+repell endus!
+</p>
+</div>
+<div className={Design.container052}>
+<h3 className={Design.container09}>
+  David Alone
+</h3>
+
+<p className={Design.container000} >
+CEO & Founder
+</p>
+</div>
+</div>
+        
+    
+
+      
+  
+        </SwiperSlide>
+
+
+
+
+
+
+
+
+      
+        <SwiperSlide>
+        <div className={Design.container03}>
+<div className={Design.container050}>
+
+
+<img
+          src="/s.png"
+          alt="About2"
+          className={Design.imagess00}
+          
+        />
+
+<p className={Design.container01} >
+Incident deleniti blanditis quas aperiam recusandae consillo ullam quibusdam cum libero illo 
+repell endus!
+</p>
+</div>
+<div className={Design.container052}>
+<h3 className={Design.container09}>
+  David Alone
+</h3>
+
+<p className={Design.container000} >
+CEO & Founder
+</p>
+</div>
+        </div>
+    
+
+
+
+</SwiperSlide>
+
+<SwiperSlide>
+<div className={Design.container03}>
+<div className={Design.container050}>
+
+
+<img
+          src="/s.png"
+          alt="About2"
+          className={Design.imagess00}
+          
+        />
+
+<p className={Design.container01} >
+Incident deleniti blanditis quas aperiam recusandae consillo ullam quibusdam cum libero illo 
+repell endus!
+</p>
+</div>
+<div className={Design.container052}>
+<h3 className={Design.container09}>
+  David Alone
+</h3>
+
+<p className={Design.container000} >
+CEO & Founder
+</p>
+</div>
+  </div>      
+    
+
+
+
+</SwiperSlide>
 
   
       
-      const [animeflag, setAnimeFlag] = useState(false);
-      const variant = {
-        hidden: {
-          opacity: 0,
-        },
-        animate: {
-          opacity: 1,
-          repeatCount: 0,
-          transition: {
-            duration: 0.2,
-            repeatCount: 0,
-            staggerChildren: 0.1,
-            repeat: 0,
-          },
-        },
-      };
-      const childVariant = {
-        hidden: {
-          opacity: 0,
-          y: "10rem",
-        },
-        animate: {
-          opacity: 1,
-          y: "0rem",
-          repeatCount: 0,
-          transition: {
-            type: "spring",
-            stiffness: 150,
-            damping: 12,
-            duration: 0.1,
-            repeat: 0,
-          },
-        },
-      };
-    return(
-        <>
+    
+  
 
-<motion.div
-        className={Design.container}
-        onViewportEnter={() => {
-          setAnimeFlag(true);
-        }}
-        variants={variant}
-        initial={"hidden"}
-        animate={animeflag ? "animate" : "hidden"}
-        whileInView={{ repeatCount: 0 }}
-      >
+        
+
+
+        
+      </div>
+ 
+       
+        
+     
       
-        <div className={Design.container10} variants={childVariant}>
-    <motion.h1 className={Design.container1} variants={childVariant}>
-        What People Say About Us
-    </motion.h1>
-    </div>
     
-    <div className={Design.container9} variants={childVariant}>
-    <div className={Design.container11} variants={childVariant}>
-    
-<motion.h1 className={Design.container2} variants={childVariant}>
-    Happy Clients
-</motion.h1>
-<motion.p className={Design.container3} variants={childVariant}>
-    Buying meddicine online is a key to the Safety of our <br/>
-    country while the pandemic is spreading all around.<br/>
-    Stay safe and buy online!
-</motion.p>
-< motion.img   src="/Uncle.png"
-          alt="About" className={Design.imagess}    variants={childVariant}/>
-<motion.h5 className={Design.contain} variants={childVariant}>
-   Sam Hardin
-    <br/>
-    New york
-</motion.h5>
+  
 
+        
+
+
+        
+ 
+ 
+       
+        
+     
+
+       
+        
+
+</Swiper>
 </div>
-
-
-<div className={Design.container11} variants={childVariant}>
-    
-<motion.h1 className={Design.container13} variants={childVariant}>
-    Happy Clients
-</motion.h1>
-<motion.p  className={Design.container14} variants={childVariant}>
-    Buying meddicine online is a key to the Safety of our <br/>
-    country while the pandemic is spreading all around.<br/>
-    Stay safe and buy online!
-</motion.p>
-<motion.img  src="/Uncle.png"
-          alt="About"  className={Design.imagess1} variants={childVariant}/>
-<motion.h5 className={Design.contain2} variants={childVariant}>
-  Sam hardin
-    <br/>
-    New york
-</motion.h5>
-
-</div>
-
-
-</div>
-</motion.div>
 </>
 
     )

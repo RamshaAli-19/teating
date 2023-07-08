@@ -1,49 +1,53 @@
-.society2 {
+.pic {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    margin-top: 5rem;
+    align-items: center;
+    width: 100vw;
+    margin-top: 4rem;
 }
 
-.society1 {
-    width: 19vw;
+.pic1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
 }
 
-.society3 {
-    width: 19vw;
+.imagess1 {
+    margin-top: 1rem;
+    width: 80vw;
 }
 
-.society4 {
-    width: 19vw;
+.container0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98vw;
+    margin-top: 2rem;
+    gap: 3rem;
 }
 
-.society5 {
-    width: 19vw;
+.container05 {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    border: 1px solid white;
+    width: 25vw;
+    margin-left: 1rem;
+    height: 9rem;
 }
 
-@media screen and (max-width: 400px) {
-    .society2 {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 31rem;
-    }
-    .society3 {
-        width: 20rem;
-        margin: 1rem;
-    }
-    .society4 {
-        width: 20rem;
-        margin: 1rem;
-    }
-    .society5 {
-        width: 20rem;
-        margin: 1rem;
-    }
-    .society1 {
-        width: 20rem;
-        margin: 1rem;
-    }
+.sir {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.container01 {
+    margin-left: 1rem;
+}
+
+.container05:hover {
+    border: 1px solid orange;
 }
 
 @media screen and (min-width: 400px) and (max-width: 500px) {
