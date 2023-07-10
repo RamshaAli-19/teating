@@ -1,30 +1,11 @@
-.Blog {
-    background: rgba(0, 0, 0, 0.3) url("../public/hero.jpg");
-    background-size: cover;
-    background-position: center;
-    width: 100vw;
-    overflow: hidden;
-    height: 61vh;
-    background-blend-mode: color-burn;
-}
-
-.blogimage {
-    color: white;
-    height: 78px;
-    width: 305px;
-    font-size: 3rem;
-    margin-top: 1rem;
-    margin-left: 31rem;
-}
-
-@media screen and (max-width: 400px) {
-    .section22 {
-        display: flex;
-        align-items: center;
-        margin-left: -21rem;
-        margin-top: 7rem;
-    }
     .Blog {
-        width: 37rem;
+        background: url("../public/house.jpg");
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
-}
+    
+    .blogimage {}
+    
+    @media screen and (max-width: 400px) {}

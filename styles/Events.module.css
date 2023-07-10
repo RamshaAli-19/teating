@@ -41,7 +41,7 @@
 }
 
 .pics99 {
-    width: 22rem;
+    width: 27rem;
     margin-top: -1rem;
     border-radius: 2%;
     height: 16rem;
@@ -75,27 +75,16 @@
 }
 
 @media screen and (max-width: 400px) {
-    .pic00 {
-        margin-left: 13rem;
-    }
-    .sectioO {
-        width: 24rem;
-        margin-left: 4rem;
-    }
     .sectionss1 {
         flex-direction: column;
-        margin-top: 2rem;
-        margin-left: 0.5rem;
+        margin-left: 1rem;
     }
-    .pics11 {
-        display: flex;
-        align-items: center;
+    .pic50 {
+        width: 16rem;
         margin-left: 0rem;
-        width: 22rem;
     }
     .img33 {
-        margin-left: 6rem;
-        width: 22rem;
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
+        width: 83vw;
     }
 }

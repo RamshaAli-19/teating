@@ -6,7 +6,10 @@ import Events from "../Components2/Events";
 function Blog1() {
     return (
       <>
+      
+   
         <div className={Styles1.Blog}>
+        
 
 <div className={Styles1.blogimage}>
 
@@ -15,12 +18,13 @@ function Blog1() {
 Blog
  </h1>
 
-
-
-
+</div>
 </div>
 
-</div>
+
+
+
+
 
 <Search/>
 <Events/>

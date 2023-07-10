@@ -12,58 +12,85 @@
     justify-content: center;
     align-items: center;
     width: 90vw;
-    margin: auto;
+    margin-top: 2rem;
     gap: 2rem;
-    margin-top: 4rem !important;
+    margin-left: 3rem;
 }
 
-.img {
+.sectionss10 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.img33 {
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
-    border: 1px solid black;
+    border: 1px solid whitesmoke;
     margin-left: 1rem;
-    height: 25rem;
+    height: 29rem;
     width: 30vw;
     border-radius: 2%;
     padding: 0%;
 }
 
-.sir3 {
+.sir35 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     margin-top: 1rem;
 }
 
-.pics0 {
-    width: 22rem;
+.pics990 {
+    width: 27rem;
     margin-top: -1rem;
-    border-radius: 0%;
-    height: 14rem;
+    border-radius: 2%;
+    height: 16rem;
 }
 
-.pic5 {
+.pic501 {
     margin-top: 1rem;
     margin-left: 1rem;
     width: 20rem;
+    font-size: large;
 }
 
-.pics4 {
+.pics10 {
     margin-left: 1rem;
     margin-top: 2rem;
+    cursor: pointer;
+}
+
+.pic00 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.sectioO {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
 }
 
 @media screen and (max-width: 400px) {
-    .sectionss {
+    .sectionss10 {
         flex-direction: column;
-        margin-left: 8.5rem;
+        margin-left: 1rem;
     }
-    .pics4 {
-        width: 18rem;
+    .pic501 {
+        width: 16rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
-    .pic5 {
-        width: 19rem;
+    .img33 {
+        margin-bottom: 3rem;
+        width: 84vw;
     }
-    .img {
-        width: 22rem;
+    .pics110 {
+        width: 16rem;
     }
 }
