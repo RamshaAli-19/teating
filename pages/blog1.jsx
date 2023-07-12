@@ -14,7 +14,7 @@ function Blog1() {
 <div className={Styles1.blogimage}>
 
 
-<h1 className={Styles1.section22}>
+<h1 className={Styles1.section29}>
 Blog
  </h1>
 
