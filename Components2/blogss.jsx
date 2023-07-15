@@ -7,21 +7,21 @@ function Search() {
         
             
         < div  className={Styles2.img33}>
-   <div className={Styles2.sir35}>
+
    <img
-             src="/explore1.png"
+             src="/45.jpg"
              alt="About2"
              className={Styles2.pics990}
              
            />
-           </div>
+         
            <h2 className={Styles2.pics110}>
-           Hotel companies tipped the scales
+         Your Gateway to Exceptional Homes
    
    </h2>
    
    <p className={Styles2.pic501} >
-   Not thoughts all exercise blessing Indulgence way everything joy alteration boisterous the attachment party we years to order
+   We believe the 36, nearly 40, billion pound discount given for a right to buy houses took a million houses out of the public housing sector which is desperately needed for rent.
    </p>
    
    </div>
@@ -29,51 +29,51 @@ function Search() {
    
    
    < div  className={Styles2.img33}>
-   <div className={Styles2.sir35}>
+   
    <img
-             src="/explore3.png"
+             src="/46.jpg.jpg"
              alt="About2"
              className={Styles2.pics990}
              
            />
-           </div>
+         
            <h2 className={Styles2.pics110}>
-           Try your hand inaugural industry crossword
+        Unlock The Door To Your Dream Home
    </h2>
    
    <p className={Styles2.pic501} >
-   Not thoughts all exercise blessing Indulgence way everything joy alteration boisterous the attachment party we years to order
+   A strong economy causes an increase in the demand for housing; the increased demand for housing drives real-estate prices and rentals through the roof. And then affordable housing becomes completely inaccessible
    </p>
    
    </div>
    
    
    < div  className={Styles2.img33}>
-   <div className={Styles2.sir35}>
+   
    <img
-             src="/explore2.png"
+             src="/47.jpg.jpg"
              alt="About2"
              className={Styles2.pics990}
              
            />
-           </div>
+        
            <h2 className={Styles2.pics110}>
-           Hoteliers resolve to invest in guests
-   
+       Your Path to Homeownership Starsts Here
    
    </h2>
    
    <p className={Styles2.pic501} >
-   Not thoughts all exercise blessing Indulgence way everything joy alteration boisterous the attachment party we years to order
+   In the housing projects, people talked of ways to reduce crime, relieve overcrowding, and they were good ideas that we plan to study, and possibly implement.
    </p>
    </div>
    
    
    
    
-   
-   
    </div>
+   
+   
+   
    
      
          

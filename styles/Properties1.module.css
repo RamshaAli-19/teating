@@ -1,0 +1,17 @@
+.Properties {
+    background: url("../public/hero.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+}
+
+.section290 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10rem;
+    color: white;
+    font-size: 6rem;
+}

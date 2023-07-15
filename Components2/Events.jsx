@@ -17,21 +17,21 @@ function  Events() {
         
             
         < div  className={Styles3.img337}>
-   <div className={Styles3.sir357}>
+ 
    <img
              src="/explore1.png"
              alt="About2"
              className={Styles3.pics9901}
              
            />
-           </div>
+       
            <h2 className={Styles3.pics1100}>
-           Hotel companies tipped the scales
+           Real Estate Excellence Awaits
    
    </h2>
    
    <p className={Styles3.pic5010} >
-   Not thoughts all exercise blessing Indulgence way everything joy alteration boisterous the attachment party we years to order
+   Public housing is more than just a place to live, public housing programs should provide opportunities to residents and their families.
    </p>
    
    </div>
@@ -39,51 +39,51 @@ function  Events() {
    
    
    < div  className={Styles3.img337}>
-   <div className={Styles3.sir357}>
+   
    <img
              src="/explore3.png"
              alt="About2"
              className={Styles3.pics9901}
              
            />
-           </div>
+      
            <h2 className={Styles3.pics1100}>
-           Try your hand inaugural industry crossword
+         Steps into a World of Luxury
    </h2>
    
    <p className={Styles3.pic5010} >
-   Not thoughts all exercise blessing Indulgence way everything joy alteration boisterous the attachment party we years to order
+   People have to take responsibility for themselves. We need to get the housing industry going again. We don't need government intervening in every step.
    </p>
    
    </div>
    
    
    < div  className={Styles3.img337}>
-   <div className={Styles3.sir357}>
+
    <img
              src="/explore2.png"
              alt="About2"
              className={Styles3.pics9901}
              
            />
-           </div>
+       
            <h2 className={Styles3.pics1100}>
-           Hoteliers resolve to invest in guests
+        Discover Endless Possibilities
    
    
    </h2>
    
    <p className={Styles3.pic5010} >
-   Not thoughts all exercise blessing Indulgence way everything joy alteration boisterous the attachment party we years to order
+   We should concentrate our work not only to a separated housing problem but housing involved in our daily work and all the other functions of the city.
    </p>
    </div>
    
    
-   
-   
-   
-   
    </div>
+   
+   
+   
+
    
          </>
   );
