@@ -7,16 +7,6 @@
     height: 10rem;
 }
 
-.sectionss {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90vw;
-    margin-top: 2rem;
-    gap: 2rem;
-    margin-left: 3rem;
-}
-
 .sectionss10 {
     display: flex;
     justify-content: center;

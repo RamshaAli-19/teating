@@ -160,7 +160,7 @@
 
 @media screen and (max-width:551px) and (min-width:490px) {
     .search {
-        top: 21rem;
+        top: 25rem;
     }
     .searchBtn {
         width: 18.5rem;
@@ -176,7 +176,7 @@
 
 @media screen and (max-width:490px) and (min-width:390px) {
     .search {
-        top: 20rem;
+        top: 25rem;
     }
     .searchBtn {
         width: 18.5rem;
@@ -193,7 +193,7 @@
 
 @media screen and (max-width:390px) and (min-width:350px) {
     .search {
-        top: 20rem;
+        top: 26rem;
     }
     .searchBtn {
         width: 18.5rem;
@@ -210,7 +210,7 @@
 
 @media screen and (max-width:350px) and (min-width:315px) {
     .search {
-        top: 20rem;
+        top: 27rem;
     }
     .searchBtn {
         width: 18.5rem;
@@ -238,7 +238,7 @@
         width: 12rem;
     }
     .search {
-        top: 20rem;
+        top: 27rem;
     }
 }
 
