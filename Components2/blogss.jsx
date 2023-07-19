@@ -32,7 +32,7 @@ import { useState } from "react";
         type: "spring",
         stiffness: 120,
         damping: 10,
-        duration: 0.1,
+        duration: 0.2,
         repeat: 0,
       },
     },
@@ -52,19 +52,19 @@ import { useState } from "react";
         
             
         <motion.div  className={Styles2.img33}variants={childVariant}>
-   <motion.img
+   <img
              src="/45.jpg"
              alt="About2"
-             className={Styles2.pics990} variants={childVariant}
+             className={Styles2.pics990}
              
            />
          
-           <h2 className={Styles2.pics110} variants={childVariant}>
+           <h2 className={Styles2.pics110}>
          Your Gateway to Exceptional Homes
    
    </h2>
    
-   <p className={Styles2.pic501} variants={childVariant}>
+   <p className={Styles2.pic501}>
    We believe the 36, nearly 40, billion pound discount given for a right to buy houses took a million houses out of the public housing sector which is desperately needed for rent.
    </p>
    
@@ -74,18 +74,18 @@ import { useState } from "react";
    
    <motion.div  className={Styles2.img33}variants={childVariant}>
    
-   <motion.img
+   <img
              src="/46.jpg.jpg"
              alt="About2"
-             className={Styles2.pics990} variants={childVariant}
+             className={Styles2.pics990}
              
            />
          
-           <h2 className={Styles2.pics110}variants={childVariant}>
+           <h2 className={Styles2.pics110}>
         Unlock The Door To Your Dream Home
    </h2>
    
-   <p className={Styles2.pic501}variants={childVariant}>
+   <p className={Styles2.pic501}>
    A strong economy causes an increase in the demand for housing; the increased demand for housing drives real-estate prices and rentals through the roof. And then affordable housing becomes completely inaccessible
    </p>
    

@@ -2,7 +2,8 @@ import React from "react";
 import Styles4 from "../styles/Properties1.module.css";
 import Searchbar from "../Components3/Searchbar";
 import Cards from "../Components3/Cards";
-
+import Choosehome from "../Components3/Choosehome";
+import Latestprop from "../Components3/Latestprop";
 
 function Properties1() {
     return (
@@ -28,6 +29,8 @@ Properties
 
 <Searchbar/>
 <Cards/>
+<Choosehome/>
+<Latestprop/>
 
       </>
   );
