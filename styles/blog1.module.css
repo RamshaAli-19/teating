@@ -15,10 +15,29 @@
         font-size: 7rem;
     }
     
-    @media screen and (min-width: 870px) and (max-width: 1000px) {
-        .section29 {
-            font-size: 10rem;
-        }
+    .containers {
+        width: 100vw;
+    }
+    
+    .box {
+        margin-left: -6rem;
+    }
+    
+    .text2 {
+        margin-left: -1rem;
+    }
+    
+    .text3 {
+        margin-left: -1rem;
+    }
+    
+    .container3 {
+        justify-content: flex-start;
+    }
+    
+    .inputbox1 {
+        margin-left: 8rem;
+        margin-top: -1rem;
     }
     
     @media screen and (min-width:800px) and (max-width:870px) {

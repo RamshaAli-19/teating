@@ -83,101 +83,195 @@
     color: whitesmoke;
 }
 
-.form2 {
-    font-size: 40px;
-    color: whitesmoke;
-    font-weight: 500;
-    margin: 2rem;
+.inputbox1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    gap: 30px;
 }
 
-.input {
+.inputbox {
     position: relative;
-    width: 310px;
-    margin-top: 24px;
-    border-bottom: 2px solid whitesmoke;
+    width: 250px;
 }
 
-.input3 {
+.inputbox input {
     width: 100%;
-    height: 100%;
-    border: none;
+    padding: 17px 0;
     outline: none;
-    padding: 0 10px;
-    font-size: 16px;
-    margin: 10px 0;
-    color: whitesmoke;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid #777;
     background: transparent;
 }
 
-.input4 {
-    position: absolute;
-    top: -30px;
-    padding: 5px 0;
-    font-size: 16px;
-    margin: 10px 0;
-    pointer-events: none;
-    transition: 0.5s;
-    color: whitesmoke;
-}
-
-.forms2 {
-    margin-top: -1rem;
-}
-
-.input10 {
-    margin-top: 3rem;
-    resize: none;
-    height: 150px;
-    width: 304px;
-    background: transparent;
-    color: whitesmoke;
-}
-
-.input1 {
-    position: relative;
-    width: 310px;
-    margin-top: 24px;
-}
-
-.input7 {
+.inputbox span {
     position: absolute;
     left: 0;
-    padding: 5px 0;
-    font-size: 16px;
-    margin: 10px 0;
+    padding: 10px;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.25);
+    text-transform: uppercase;
     pointer-events: none;
     transition: 0.5s;
-    color: whitesmoke;
 }
 
-.input00 {
-    margin-top: 2rem;
-    width: 7rem;
+.inputbox input:valid~span,
+.inputbox input:focus~span {
+    color: antiquewhite;
+    transform: translate(10px) translateY(-7px);
+    font-size: 1.65rem;
+    padding: 0 10px;
 }
 
-.forms {
-    margin-left: 13rem;
+@media screen and (min-width:1000px) and (max-width:1100px) {
+    .containers {
+        width: 100vw;
+    }
+    .box {
+        margin-left: -6rem;
+    }
+    .text2 {
+        margin-left: -1rem;
+    }
+    .text3 {
+        margin-left: -1rem;
+    }
+    .container3 {
+        justify-content: flex-start;
+    }
+    .inputbox1 {
+        margin-left: 8rem;
+        margin-top: -1rem;
+    }
+}
+
+@media screen and (min-width: 870px) and (max-width: 1000px) {
+    .containers {
+        width: 100vw;
+    }
+    .box {
+        margin-left: -6rem;
+    }
+    .text2 {
+        margin-left: -1rem;
+    }
+    .text3 {
+        margin-left: -1rem;
+    }
+    .container3 {
+        justify-content: flex-start;
+    }
+    .inputbox1 {
+        margin-left: 8rem;
+        margin-top: -1rem;
+    }
+}
+
+@media screen and (min-width:800px) and (max-width:870px) {
+    .containers {
+        width: 100vw;
+    }
+    .box {
+        margin-left: -6rem;
+    }
+    .text2 {
+        margin-left: -1rem;
+    }
+    .text3 {
+        margin-left: -1rem;
+    }
+    .container3 {
+        justify-content: flex-start;
+    }
+    .inputbox1 {
+        margin-left: 8rem;
+        margin-top: -1rem;
+    }
+}
+
+@media screen and (min-width: 660px) and (max-width: 800px) {
+    .containers {
+        width: 100vw;
+    }
+    .container3 {
+        justify-content: flex-start;
+        margin-left: -10rem;
+    }
+    .inputbox1 {
+        margin-left: 8rem;
+        margin-top: -1rem;
+    }
+}
+
+@media screen and (max-width: 660px) and (min-width: 600px) {
+    .containers {
+        width: 100vw;
+    }
+    .container3 {
+        justify-content: flex-start;
+        margin-left: -14rem;
+    }
+    .inputbox1 {
+        margin-left: 7rem;
+    }
+    .containers3 {
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 500px) {
+    .containers {
+        width: 100vw;
+    }
+    .container3 {
+        justify-content: flex-start;
+        margin-left: -14rem;
+    }
+    .inputbox1 {
+        margin-left: 7rem;
+        margin-top: -1rem;
+    }
+    .containers3 {
+        margin-left: -6rem;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 500px) {
+    .containers {
+        width: 100vw;
+    }
+    .container3 {
+        justify-content: flex-start;
+        margin-left: -14rem;
+    }
+    .inputbox1 {
+        margin-left: 4rem;
+    }
+    .containers3 {
+        margin-left: -7rem;
+    }
 }
 
 @media screen and (max-width: 400px) {
     .containers {
         width: 100vw;
     }
-    .containers5 {
-        font-size: 63px;
-        font-weight: 500;
-        margin-top: -2rem;
+    .inputbox1 {
+        margin-left: -2rem;
+        margin-top: -1rem;
     }
-    .containers6 {
-        font-size: 3rem;
+    .inputbox {
+        margin-left: 3rem;
     }
     .container3 {
-        width: 14%;
+        justify-content: flex-start;
+        margin-left: -14rem;
     }
-    .text2 {
-        width: 32vw;
-    }
-    .input3 {
-        width: 5%;
+    .containers3 {
+        margin-left: -2rem;
     }
 }

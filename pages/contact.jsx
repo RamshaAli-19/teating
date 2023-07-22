@@ -1,8 +1,38 @@
 import React from "react";
 import designs from "../styles/Contact.module.css";
-
+import { motion } from "framer-motion";
+import { useState } from "react";
+import { useRouter } from "next/router";
 
 function Contact() {
+  const [animateFlag, setAnimateFlag] = useState(false);
+  const [placeHolder, setPlaceHolder] = useState({
+    user:"Username",
+    email:"Email",
+    pass:"Password"
+  });
+  const [input, setInput] = useState({
+    user:false,
+    email:false,
+    pass:false
+  })
+
+
+  const router = useRouter();
+  const [user, setUser] = useState({
+    username: "",
+    email: "",
+    pass: "",
+  });
+
+  let x = 0;
+  const email = /^[\w.%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/i;
+
+  const handleChange = (e) => {
+    let name = e.target.name;
+    let value = e.target.value;
+    setUser({ ...user, [name]: value });
+  };
 
 
 
@@ -58,40 +88,34 @@ function Contact() {
     </div>
 
   </div>
-
-<div className={designs.form}>
-  <form className={designs.forms}>
-    <h2 className={designs.form2}>Send message</h2>
-    <div className={designs.input}>
-
-  
-    <input  className={designs.input3}type="text" name="" required="required"></input>
-      <span className={designs.input4}>Username</span>
-      </div>
-
-
-    
-    
-    <div className={designs.input}>
-      <input  className={designs.input3}type="text" name="" required="required"></input>
-      <span className={designs.input4}>Email</span>
-      </div>
-     
-
-
-
-
-    <div className={designs.input1}>
-      <textarea  name="" id="message" cols="30" rows="10" className={designs.input10}/>
-      <span className={designs.input7}>Type Your Message</span>
-   
-      </div>
-
-     
-<input  className={designs.input00}type="submit" value="Submit" required="required"></input>
-   
-  </form>
+  <div className={designs.inputbox1}>
+<div className={designs.inputbox}>
+  <input type="text" required="required"/>
+  <span >Firstname</span>
 </div>
+
+
+<div className={designs.inputbox}>
+  <input type="text" required="required"/>
+  <span >Lastname</span>
+</div>
+
+
+
+<div className={designs.inputbox}>
+  <input type="text" required="required"/>
+  <span >Email</span>
+</div>
+
+
+<div className={designs.inputbox}>
+  <input type="text" required="required"/>
+  <span >Firstname</span>
+</div>
+
+ 
+  </div>
+
 </div>
 
 </section>

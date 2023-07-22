@@ -2,144 +2,75 @@ import React from "react";
 import designsd from "../styles/Latestprop.module.css";
 import { motion } from "framer-motion";
 import { useState } from "react";
+
 const  Latestprop=()=> {
-  const [animeflag, setAnimeFlag] = useState(false);
-  const variant = {
-    hidden: {
-      opacity: 0,
+  const [cardhead, setCardHead] = useState(false);
+  const [cardflag, setCardFlag] = useState(false);
+
+const cardParent = {
+  hidden: {
+    opacity: 0,
+  },
+  animate: {
+    opacity: 1,
+    transition: {
+      duration: 0.2,
+      staggerChildren: 0.2,
+      repeat: 0,
     },
-    animate: {
-      opacity: 1,
-      repeatCount: 0,
-      transition: {
-        duration: 0.1,
-        repeatCount: 0,
-        staggerChildren: 0.1,
-        repeat: 0,
-      },
+  },
+};
+
+const cardChild = {
+  hidden: {
+    opacity: 0,
+    y: "5rem",
+  },
+  animate: {
+    opacity: 1,
+    y: "0rem",
+    transition: {
+      type: "spring",
+      stiffness: 150,
+      duration: 0.15,
+      damping: 13,
+      repeat: 0,
     },
-  };
-  const childVariant = {
-    hidden: {
-      opacity: 0,
-      y: "10rem",
-    },
-    animate: {
-      opacity: 1,
-      y: "0rem",
-      repeatCount: 0,
-      transition: {
-        type: "spring",
-        stiffness: 120,
-        damping: 10,
-        duration: 0.2,
-        repeat: 0,
-      },
-    },
-  };
+  },
+};
+ 
 
     return (
         <>
-      <div className={designsd.team}>
-        <div className={designsd.container3}>
-            <div className={designsd.rows}>
-            <div className={designsd.rows33}>
-            <div className={designsd.rows334}>
-                <h1 className={designsd.titles}>
-                    Latest Property
-                </h1>
-                </div>
-                </div>
+        <div className={designsd.ptHead1}>
+        <motion.h1
+          onViewportEnter={() => setCardHead(true)}
+          initial={{
+            opacity: cardhead ? 1 : 0,
+            y: cardhead ? "0rem" : "5rem",
+          }}
+          whileInView={{
+            y: "0rem",
+            opacity: 1,
+          }}
+          transition={{
+            type: "spring",
+            duration: 0.2,
+            stiffness: 100,
+            damping: 11,
+          }}
+          className={designsd.ptText1}
+        >
+         OUR SERVICES
+        </motion.h1>
+        <p className={designsd.para}
+>
+Let us help you make your dreams a reality.
+  </p>      </div>
 
-
-<div className={designsd.titles22}>
-    <div className={designsd.btn}>
-        <a href="#" className={designsd.btn2}>
-        <img
-             src="/y.png.png"
-             alt="About2"
-             className={designsd.pics9901002}
-             
-           />
-           All Counselor
-
-        </a>
-    </div>
-
-</div>
-
-
-            </div>
-        </div>
-      </div>
-
-      <motion.div className={designsd.images340}onViewportEnter={() => {
-          setAnimeFlag(true);
-        }}
-        variants={variant}
-        initial={"hidden"}
-        animate={animeflag ? "animate" : "hidden"}>
-<motion.div className={designsd.images34 } variants={childVariant}>
-       
  
-<img
-             src="/cat-2.jpg"
-             alt="About2"
-             className={designsd.villas} 
-             
-           />
-           <div className={designsd.images35}>
-           <h1 className={designsd.imgg}>Villa</h1>
-           <h2 className={designsd.imgg2}>230 Properties</h2>
-           </div>
-
-
-
-</motion.div>
-
-<motion.div className={designsd.images34}variants={childVariant}>
-
-<img
-             src="/cat-3.jpg"
-             alt="About2"
-             className={designsd.villas}
-             
-           />
-           <div className={designsd.images35}>
-           <h1 className={designsd.imgg}>House</h1>
-           <h2 className={designsd.imgg2}>230 Properties</h2>
-           </div>
-
-
-
-</motion.div>
-
-<motion.div className={designsd.images34}variants={childVariant}>
-
-<img
-             src="/prop3.jpg.jpg"
-             alt="About2"
-             className={designsd.villas}
-             
-           />
-           <div className={designsd.images35}>
-           <h1 className={designsd.imgg}>Office</h1>
-           <h2 className={designsd.imgg2}>230 Properties</h2>
-           </div>
-
-
-
-</motion.div>
-
-
-
-       
-
-
-</motion.div>
+  
    
-
-
         </>
         );
       }
