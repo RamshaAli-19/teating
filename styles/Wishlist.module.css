@@ -1,0 +1,86 @@
+.Properties1 {
+    background: rgba(0, 0, 0, 0.7)url("../public/house.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section2900 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10rem;
+    color: white;
+    font-size: 6rem;
+}
+
+.container34 {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.box9 {
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    border: 1rem sold rgba(0, 0, 0, .1);
+    position: relative;
+}
+
+.discount {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    padding: .7rem 1rem;
+    font-size: 2rem;
+    color: pink;
+    background: rgba(255, 51, 153, .05);
+    z-index: 1;
+    border-radius: .5rem;
+}
+
+.images {
+    position: relative;
+    text-align: center;
+    padding-top: 2rem;
+    overflow: hidden;
+}
+
+.images1 {
+    width: 22rem;
+    height: 25rem;
+}
+
+.images1:hover {
+    transform: scale(1.1);
+}
+
+.icons {
+    position: absolute;
+    bottom: 0rem;
+    left: 0;
+    right: 0;
+}
+
+.icons:hover {
+    bottom: 0;
+}
+
+.images2 {
+    height: 2rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    background: pink;
+    color: white;
+}
+
+.cart {
+    height: 2rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    background: pink;
+    color: white;
+}
+
+.items {}

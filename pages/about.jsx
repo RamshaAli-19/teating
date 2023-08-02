@@ -5,8 +5,8 @@ import Styles from "../styles/About.module.css";
 
 import Counter from "../Components/Counter";
 import Video from "../Components/Video";
-import Villa7 from "../Components/Villa7";
-import Villa6 from "../Components/Villa6";
+
+import Services from "@/Components/Services";
 
 function About() {
     return (
@@ -39,9 +39,9 @@ ABOUT US
 
 <Counter/>
 <Video/>
-<Villa6/>
-<Villa7/>
 
+
+<Services/>
 
 
      </>

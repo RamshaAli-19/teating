@@ -1,0 +1,7 @@
+.kitch {
+    background: rgba(0, 0, 0, 0.7) url("../public/slide1.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

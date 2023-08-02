@@ -1,0 +1,13 @@
+.txt {
+    margin-top: 3rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.developer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6rem;
+    justify-content: center;
+    margin-top: 2rem;
+}

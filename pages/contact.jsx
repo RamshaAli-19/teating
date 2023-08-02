@@ -1,40 +1,9 @@
 import React from "react";
 import designs from "../styles/Contact.module.css";
-import { motion } from "framer-motion";
-import { useState } from "react";
-import { useRouter } from "next/router";
+
 
 function Contact() {
-  const [animateFlag, setAnimateFlag] = useState(false);
-  const [placeHolder, setPlaceHolder] = useState({
-    user:"Username",
-    email:"Email",
-    pass:"Password"
-  });
-  const [input, setInput] = useState({
-    user:false,
-    email:false,
-    pass:false
-  })
-
-
-  const router = useRouter();
-  const [user, setUser] = useState({
-    username: "",
-    email: "",
-    pass: "",
-  });
-
-  let x = 0;
-  const email = /^[\w.%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/i;
-
-  const handleChange = (e) => {
-    let name = e.target.name;
-    let value = e.target.value;
-    setUser({ ...user, [name]: value });
-  };
-
-
+ 
 
     return (
       <>
@@ -108,9 +77,9 @@ function Contact() {
 </div>
 
 
-<div className={designs.inputbox}>
-  <input type="text" required="required"/>
-  <span >Firstname</span>
+<div className={designs.inputbox2}>
+  <textarea id="message" rows="8"></textarea>
+  <label >Message</label>
 </div>
 
  

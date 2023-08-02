@@ -1,0 +1,21 @@
+.headings {
+    margin-top: -8rem;
+    text-align: center;
+}
+
+.titles2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 3rem;
+}
+
+.img {
+    display: flex;
+    margin-left: 5rem;
+}
+
+.txt {
+    margin-left: 3.5rem;
+}
