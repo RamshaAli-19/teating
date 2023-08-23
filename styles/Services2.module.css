@@ -1,0 +1,29 @@
+.abouttxt {
+    margin-top: 6rem;
+    text-align: center;
+    font-size: 21px;
+}
+
+.aboutSections {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.aboutCards {
+    display: flex;
+    margin-left: 6rem;
+    justify-content: center;
+}
+
+.aboutTitle {
+    margin-left: 2.5rem;
+    margin-top: 1.5rem;
+    font-size: 21px;
+}
+
+.aboutParagraph {
+    margin-top: 1.5rem;
+    margin-left: 4rem;
+    font-size: 16.5px;
+    width: 14.5rem;
+}

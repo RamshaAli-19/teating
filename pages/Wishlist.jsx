@@ -1,146 +1,124 @@
 import React from "react";
-import Styles5 from "../styles/Wishlist.module.css";
-function Wishlist() {
+import Styles2 from "../styles/Wishlist.module.css";
+
+const Wishlist=()=> {
+
+  
+
+  
+  const Toggle =()=>{
+    const btnvar = document.querySelector(".btn1");
+  if(btnvar.style.color == "red"){
+    btnvar.style.color = "black"
+  }
+  else{
+    btnvar.style.color ="red"
+  }
+  }
+
+
+
     return (
-      <>
-      
-   
-        <div className={Styles5.Properties1}>
+        <>
+     <div className={Styles2.sectionss10}
+       
+        >
+
         
-
-<div className={Styles5.blogimage}>
-
-
-<h1 className={Styles5.section2900}>
-Wishlist
- </h1>
-
-</div>
-
-
-
-</div>
-
-
-<div className={Styles5.items}>
-  <div className={Styles5.hey}>
-    <p className={Styles5.para}>
-      DREAM VILLA
-    </p>
-    <div className={Styles5.card}>
-      <div className={Styles5.top}>
-      <img
-             src="/stars.png"
-             alt="About2"
-             className={Styles5.top1}
             
-           />
-           $.3
-           <img
-             src="/heart.png"
+        <div  className={Styles2.img33}>
+   <img
+             src="/4 (1).jpg"
              alt="About2"
-             className={Styles5.top1}
-            
+             className={Styles2.pics990}
+             
            />
-      </div>
-      <img
-             src="/housess.jpg.jpg"
+         
+           <h2 className={Styles2.pics1100}>
+           Country Style House with beautiful garden and terrace
+   
+   </h2>
+   <div className={Styles2.cart}>
+    <button  className={Styles2.wish} onClick={()=>{
+            Toggle();
+            }}>
+   <img
+             src="/heart (2).png"
              alt="About2"
-             className={Styles5.top1}
-            
+             className={`${Styles2.hearts} btn1`}
+             
            />
+        </button>
+   </div>
 
-           <p className={Styles5.pk}>
-            Villas
-           </p>
-           <p className={Styles5.pk2}>
-            price:$10
-           </p>
-
-    </div>
-  </div>
-
-
-
-
-  <div className={Styles5.hey}>
-    <p className={Styles5.para}>
-      DREAM VILLA
-    </p>
-    <div className={Styles5.card}>
-      <div className={Styles5.top}>
-      <img
-             src="/stars.png"
+   
+ 
+   </div>
+   
+   
+   <div  className={Styles2.img33}>
+   
+   <img
+             src="/2 (4).jpg"
              alt="About2"
-             className={Styles5.top1}
-            
+             className={Styles2.pics990}
+             
+
+             
            />
-           $.3
-           <img
-             src="/heart.png"
+         
+           <h2 className={Styles2.pics1100}>
+           Country Style House with beautiful garden and terrace
+   </h2>
+   
+   <p className={Styles2.pic501}>
+   A strong economy causes an increase in the demand for housing; the increased demand for housing drives real-estate prices and rentals through the roof. And then affordable housing becomes completely inaccessible
+   </p>
+   
+   </div>
+   
+   
+   <div  className={Styles2.img33}>
+   
+   <img
+             src="/1 (2).jpg"
              alt="About2"
-             className={Styles5.top1}
-            
+             className={Styles2.pics990}
+          
+             
            />
-      </div>
-      <img
-             src="/housess.jpg.jpg"
-             alt="About2"
-             className={Styles5.top1}
-            
-           />
+        
+           <h2 className={Styles2.pics1100} >
+           Country Style House with beautiful garden and terrace
+   
+   </h2>
+   
+   <p className={Styles2.pic501}>
+   In the housing projects, people talked of ways to reduce crime, relieve overcrowding, and they were good ideas that we plan to study, and possibly implement.
+   </p>
+   </div>
+   
+   
+   
+   
+   </div>
+   
+  
+   
+   
+   
+     
+         
+         </>
+ 
+  )
+    };
+    
 
-           <p className={Styles5.pk}>
-            Villas
-           </p>
-           <p className={Styles5.pk2}>
-            price:$10
-           </p>
-
-    </div>
-  </div>
+export default Wishlist;
 
 
 
-  <div className={Styles5.hey}>
-    <p className={Styles5.para}>
-      DREAM VILLA
-    </p>
-    <div className={Styles5.card}>
-      <div className={Styles5.top}>
-      <img
-             src="/stars.png"
-             alt="About2"
-             className={Styles5.top1}
-            
-           />
-           $.3
-           <img
-             src="/heart.png"
-             alt="About2"
-             className={Styles5.top1}
-            
-           />
-      </div>
-      <img
-             src="/housess.jpg.jpg"
-             alt="About2"
-             className={Styles5.top1}
-            
-           />
 
-           <p className={Styles5.pk}>
-            Villas
-           </p>
-           <p className={Styles5.pk2}>
-            price:$10
-           </p>
 
-    </div>
-  </div>
-</div>
-</>
-);
 
-}
-export default Wishlist

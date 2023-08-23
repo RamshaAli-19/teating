@@ -1,11 +1,8 @@
 .videowidth {
-    width: 800px;
     cursor: pointer;
-    margin-top: 1rem;
-    margin: 100px auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-top: 3em;
+    width: 80.5rem;
+    height: 42rem;
 }
 
 .play {
@@ -15,9 +12,8 @@
     width: 100px;
     height: 100px;
     position: absolute;
-    left: 0px;
-    right: 0px;
-    margin: auto;
+    margin-top: -29rem;
+    margin-left: 38rem;
     text-align: center;
     line-height: 100px;
     border-radius: 50%;
@@ -49,19 +45,13 @@
     }
 }
 
-.imagese {
+.pausebutton {
     width: 36px;
     margin-top: 1rem;
     margin-left: 0rem;
 }
 
-.imagese12 {
-    width: 86rem;
-    filter: brightness(0.5);
-    height: 29rem;
-}
-
-.heading {
+.videoHead {
     font-size: 3rem;
     margin-left: -6rem;
     margin-top: 1rem;

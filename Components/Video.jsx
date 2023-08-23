@@ -23,7 +23,7 @@ return(
 
 
   <div className={Styless.videowidth}>
-        <video src="/g.mp4" className={`${Styless.videowidth} video`}  />
+        <video src="/realestate.mp4" className={`${Styless.videowidth} video`}  />
 
 <div className={Styless.play} onClick={()=>{
             videoControl();
@@ -31,11 +31,11 @@ return(
 <img
           src="/button.png"
           alt="About1"
-          className={Styless.imagese}
+          className={Styless.pausebutton}
           
         />
 
-        <h1 className={Styless.heading}>
+        <h1 className={Styless.videoHead}>
           DREAMVILLA
         </h1>
 </div>

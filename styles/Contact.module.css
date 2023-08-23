@@ -1,4 +1,4 @@
-.containers {
+.contactcontainer {
     min-height: 100vh;
     padding: 50px 100px;
     background: rgba(0, 0, 0, 0.7)url("../public/house.jpg");
@@ -15,26 +15,25 @@
     background-blend-mode: darken;
 }
 
-.containers2 {
+.contacttitle {
     max-width: 800px;
     text-align: center;
 }
 
-.containers5 {
+.titles {
     font-size: 45px;
     font-weight: 500;
     color: whitesmoke;
     margin-top: -3rem;
 }
 
-.containers6 {
-    font-weight: 600;
+.contactparagraph {
     color: whitesmoke;
     margin-top: 1rem;
     font-size: 3rem;
 }
 
-.container3 {
+.contactcontainers {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,20 +41,20 @@
     width: 60%;
 }
 
-.containers3 {
+.containerhead {
     width: 90%;
     display: flex;
     flex-direction: column;
-    margin-top: -3rem;
+    margin-top: -9rem;
 }
 
-.box {
+.contactbox {
     position: relative;
     padding: 35px 0;
     display: flex;
 }
 
-.text {
+.contacttext {
     display: flex;
     margin-left: 20px;
     font-size: 16px;
@@ -64,7 +63,7 @@
     font-weight: 300;
 }
 
-.icons {
+.contacticons {
     min-width: 60px;
     height: 60px;
     background: whitesmoke;
@@ -75,22 +74,23 @@
     font-size: 22PX;
 }
 
-.text2 {
+.contacttexts {
     font-weight: 500;
     color: whitesmoke;
 }
 
-.text3 {
+.contactsparagraph {
     color: whitesmoke;
 }
 
-.inputbox1 {
+.contactinput {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     flex-direction: column;
     gap: 30px;
+    margin-top: -3.5rem;
 }
 
 .inputbox {
@@ -112,211 +112,303 @@
 .inputbox span {
     position: absolute;
     left: 0;
+    top: 0;
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.25);
     text-transform: uppercase;
     pointer-events: none;
     transition: 0.5s;
-    padding: 16px 0px;
+    padding: 30px 0px;
 }
 
 .inputbox input:valid~span,
 .inputbox input:focus~span {
     color: antiquewhite;
-    transform: translate(10px) translateY(-7px);
     font-size: 1.65rem;
     padding: 0 10px;
     background: black;
     border-left: 1px solid pink;
+    top: -12px
 }
 
-.inputbox2 {
+.inputmessage {
     position: relative;
     width: 250px;
 }
 
-.inputbox2 textarea {
+.messages {
     width: 100%;
     outline: none;
-    font-size: 18px;
-    box-sizing: border-box;
-    background: transparent;
-    margin-top: 3rem;
-    resize: none;
-    height: 8rem;
     color: #fff;
+    font-size: 18px;
+    border-bottom: 1px solid #777;
+    background: transparent;
+    margin-top: 2rem;
+    resize: none;
+    height: 100px;
 }
 
-.inputbox2 label {
+.textname {
     position: absolute;
     left: 0;
+    top: 0;
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.25);
     text-transform: uppercase;
     pointer-events: none;
     transition: 0.5s;
-    padding: 16px 0px;
 }
 
-.inputbox2 textarea:valid~label,
-.inputbox2 textarea:focus~label {
+.inputbox textarea:valid~label,
+.inputbox textarea:focus~label {
     color: antiquewhite;
-    transform: translate(10px) translateY(-5px);
     font-size: 1.65rem;
-    padding: 0 10px;
     background: black;
     border-left: 1px solid pink;
+    padding: 0 10px;
+}
+
+.btn {
+    height: 55px;
+    width: 12rem;
+    font-size: 1rem;
+    color: antiquewhite;
+    background: black;
 }
 
 @media screen and (min-width:1000px) and (max-width:1100px) {
-    .containers {
+    .contactcontainer {
         width: 100vw;
     }
-    .box {
-        margin-left: -6rem;
-    }
-    .text2 {
-        margin-left: -1rem;
-    }
-    .text3 {
-        margin-left: -1rem;
-    }
-    .container3 {
+    .contactcontainers {
         justify-content: flex-start;
     }
-    .inputbox1 {
-        margin-left: 8rem;
+    .inputbox {
+        margin-left: 6rem;
+    }
+    .containerhead {
+        margin-left: 0rem;
+        margin-top: -7rem;
+    }
+    .btn {
         margin-top: -1rem;
+    }
+    .textareas {
+        margin-left: 3rem;
+    }
+    .labels {
+        margin-top: -8rem;
+        margin-left: 3rem;
+    }
+    .contactinput {
+        margin-top: -3rem;
     }
 }
 
 @media screen and (min-width: 870px) and (max-width: 1000px) {
-    .containers {
+    .contactcontainer {
         width: 100vw;
     }
-    .box {
-        margin-left: -6rem;
-    }
-    .text2 {
-        margin-left: -1rem;
-    }
-    .text3 {
-        margin-left: -1rem;
-    }
-    .container3 {
+    .contactcontainers {
         justify-content: flex-start;
     }
-    .inputbox1 {
-        margin-left: 8rem;
+    .inputbox {
+        margin-left: 6rem;
+    }
+    .containerhead {
+        margin-left: -2rem;
+        margin-top: -7rem;
+    }
+    .btn {
         margin-top: -1rem;
+    }
+    .textareas {
+        margin-left: 3rem;
+    }
+    .labels {
+        margin-top: -8rem;
+        margin-left: 3rem;
+    }
+    .contactinput {
+        margin-top: -3rem;
     }
 }
 
 @media screen and (min-width:800px) and (max-width:870px) {
-    .containers {
+    .contactcontainer {
         width: 100vw;
     }
-    .box {
-        margin-left: -6rem;
-    }
-    .text2 {
-        margin-left: -1rem;
-    }
-    .text3 {
-        margin-left: -1rem;
-    }
-    .container3 {
+    .contactcontainers {
         justify-content: flex-start;
     }
-    .inputbox1 {
-        margin-left: 8rem;
+    .inputbox {
+        margin-left: 6rem;
+    }
+    .containerhead {
+        margin-left: 0rem;
+        margin-top: -7rem;
+    }
+    .btn {
         margin-top: -1rem;
+    }
+    .textareas {
+        margin-left: 3rem;
+    }
+    .labels {
+        margin-top: -8rem;
+        margin-left: 3rem;
+    }
+    .contactinput {
+        margin-top: -3rem;
     }
 }
 
 @media screen and (min-width: 660px) and (max-width: 800px) {
-    .containers {
+    .contactcontainer {
         width: 100vw;
     }
-    .container3 {
+    .contactcontainers {
         justify-content: flex-start;
         margin-left: 0rem;
     }
-    .inputbox1 {
-        margin-left: 8rem;
+    .inputbox {
+        margin-left: 6rem;
+    }
+    .containerhead {
+        margin-left: -3rem;
+        margin-top: -6rem;
+    }
+    .btn {
         margin-top: -1rem;
+    }
+    .textareas {
+        margin-left: 3rem;
+    }
+    .labels {
+        margin-top: -8rem;
+        margin-left: 3rem;
+    }
+    .contactinput {
+        margin-top: -3rem;
     }
 }
 
 @media screen and (max-width: 660px) and (min-width: 600px) {
-    .containers {
+    .contactcontainer {
         width: 100vw;
     }
-    .container3 {
+    .contactcontainers {
         justify-content: flex-start;
         margin-left: -14rem;
     }
-    .inputbox1 {
-        margin-left: 7rem;
+    .inputbox {
+        margin-left: 6rem;
     }
-    .containers3 {
+    .containerhead {
         margin-left: 1rem;
+        margin-top: -7rem;
+    }
+    .btn {
+        margin-top: -2rem;
+    }
+    .textareas {
+        margin-left: 3rem;
+    }
+    .labels {
+        margin-top: -8rem;
+        margin-left: 3rem;
+    }
+    .contactinput {
+        margin-top: -3rem;
     }
 }
 
 @media screen and (max-width: 600px) and (min-width: 500px) {
-    .containers {
+    .contactcontainer {
         width: 100vw;
     }
-    .container3 {
+    .contactcontainers {
         justify-content: flex-start;
         margin-left: -14rem;
     }
-    .inputbox1 {
-        margin-left: 7rem;
-        margin-top: -1rem;
-    }
-    .containers3 {
+    .containerhead {
         margin-left: -1rem;
+        margin-top: -7rem;
+    }
+    .inputbox {
+        margin-left: 6rem;
+    }
+    .contactinput {
+        margin-top: -3rem;
+    }
+    .textareas {
+        margin-left: 3rem;
+    }
+    .labels {
+        margin-top: -8rem;
+        margin-left: 3rem;
     }
 }
 
-@media screen and (min-width: 400px) and (max-width: 500px) {
-    .containers {
+@media screen and (min-width: 401px) and (max-width: 500px) {
+    .contactcontainer {
         width: 100vw;
     }
-    .container3 {
+    .contactcontainers {
         justify-content: flex-start;
         margin-left: -14rem;
     }
-    .inputbox1 {
-        margin-left: 4rem;
-    }
-    .containers3 {
-        margin-left: 0rem;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .containers {
-        width: 100vw;
-    }
-    .inputbox1 {
-        margin-left: -2rem;
-        margin-top: -1rem;
+    .containerhead {
+        margin-left: -1rem;
+        margin-top: -6rem;
     }
     .inputbox {
         margin-left: 3rem;
     }
-    .container3 {
-        justify-content: flex-start;
-        margin-left: -14rem;
+    .textareas {
+        margin-left: 1rem;
     }
-    .containers3 {
-        margin-left: -2rem;
-    }
-    .inputbox2 {
-        margin-left: 4rem;
+    .btn {
         margin-top: -1rem;
+    }
+    .contactinput {
+        margin-top: -3rem;
+    }
+    .labels {
+        margin-top: -9rem;
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .contactcontainer {
+        width: 100vw;
+    }
+    .inputbox {
+        margin-left: -1rem;
+    }
+    .contactinput {
+        margin-left: 4rem;
+    }
+    .contactcontainers {
+        justify-content: flex-start;
+        margin-left: -17rem;
+    }
+    .containerhead {
+        margin-left: -1rem;
+        margin-top: -4rem;
+    }
+    .labels {
+        margin-top: 1rem;
+        margin-left: -1rem;
+    }
+    .textareas {
+        margin-left: 0rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .textareas {
+        margin-left: -1rem;
     }
 }

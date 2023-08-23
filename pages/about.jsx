@@ -2,7 +2,7 @@ import React from "react";
 import Styles from "../styles/About.module.css";
 
 
-
+import Services2 from "@/Components/Services2";
 import Counter from "../Components/Counter";
 import Video from "../Components/Video";
 
@@ -43,7 +43,7 @@ ABOUT US
 
 <Services/>
 
-
+<Services2/>
      </>
   );
 }

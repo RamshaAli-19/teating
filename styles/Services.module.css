@@ -1,21 +1,29 @@
-.headings {
-    margin-top: -8rem;
+.serviceSections {
+    margin-top: 7rem;
     text-align: center;
 }
 
-.titles2 {
+.serviceContainer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     margin-top: 3rem;
-    gap: 3rem;
 }
 
-.img {
+.servicetxt {
+    margin-left: 3.5rem;
+    margin-top: 1.5rem;
+    font-size: 24px;
+}
+
+.ServiceParagraph {
+    margin-top: 1.5rem;
+    margin-left: 4rem;
+    font-size: 16.5px;
+    width: 14.5rem;
+}
+
+.serviceIcons {
     display: flex;
     margin-left: 5rem;
-}
-
-.txt {
-    margin-left: 3.5rem;
+    justify-content: center;
 }
